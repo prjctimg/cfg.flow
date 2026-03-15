@@ -6,7 +6,10 @@
   "project": {
     "syntax": "vim",
     "on_match_failure": "ignore",
+
     "press": [
+
+      ["<Esc>", ["cancel"], ["enter_mode", "normal"]],
       ["<Space><Space>", "find_file"],
       ["<Space>b", "switch_buffers"],
       ["<Space>/", "find_in_files"],
